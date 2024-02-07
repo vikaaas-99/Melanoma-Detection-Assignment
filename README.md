@@ -1,5 +1,6 @@
 # Project Name
-> Outline a brief description of your project.
+> Melanoma Detection using Convolutional Neural Networks
+> Building a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
 
 ## Table of Contents
@@ -11,38 +12,31 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+In this project, we aim to build a convolutional neural network (CNN) model to accurately detect melanoma, a type of skin cancer. Early detection of melanoma is crucial as it can be deadly if not diagnosed and treated promptly. By leveraging deep learning techniques, we can develop a solution that evaluates images and alerts dermatologists about the presence of melanoma, potentially reducing manual effort in diagnosis.
+> Dataset
+- The dataset consists of 2357 images of malignant and benign oncological diseases sourced from the International Skin Imaging Collaboration (ISIC).
+- The dataset includes the following diseases: Actinic keratosis, Basal cell carcinoma, Dermatofibroma, Melanoma, Nevus, Pigmented benign keratosis, Seborrheic keratosis,     Squamous cell carcinoma, Vascular lesion.
+- Images have been categorized based on the classification taken with ISIC, with a slight dominance of melanomas and moles.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The project aimed to develop a CNN-based model for accurate melanoma detection.
+- Through multiple iterations of model building, training, and augmentation, we addressed issues such as overfitting, underfitting, and class imbalances.
+- Evaluated the performance of each model iteration and discussed findings.
+- The final model demonstrates improved performance in detecting melanoma and shows promise for assisting dermatologists in diagnosing skin cancer.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- tensorflow
+- matplotlib
+- pandas
+- numpy
+- PIL
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@vikaaas-99] - feel free to contact me!
 
 
 <!-- Optional -->
